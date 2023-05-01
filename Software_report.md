@@ -79,6 +79,16 @@ The command and simulation output is shown below (to obtain the proper input imp
 
 The improved tracking filter schematic is shown below:
 
+![image](https://user-images.githubusercontent.com/98863790/235395992-bd5ccc91-b8d0-474f-aadc-9f747bf05651.png)
+
+The purpose of the tracking filter is to lock/set a specific am radio frequency detected nearby, to lock/select a radio frequency we need to adjust the capacitor (C4 in the circuit diagram) value.
+
+The only command we are going to use in this circuit will be transient analysis.
+
+![image](https://user-images.githubusercontent.com/98863790/235396118-513d01a1-19fa-4a90-82c8-32cb89b3bf84.png)
+
+
+
 ## Triode Mixer
 
 The improved triode mixere schematic is shown below:
