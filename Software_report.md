@@ -24,7 +24,7 @@ LTspice offers a few different analysis types such as transient, AC analysis, DC
 # LTSpice set up for each circuit
 After watching the tutorials we provided in an earlier section, we assume that the user will have the ability to simulate and choose components from the LTSpice, the following will be just a guide on which simulation commands the user necessary to run for each circuit.
 
-## Active Antenna Spice Guide
+## Active Antenna Spice Setup
 
 The active antenna schematic is shown in the figure below:
 
@@ -38,7 +38,7 @@ After the user runs the simulation, right click on the output of the antenna, th
 
 ![image](https://user-images.githubusercontent.com/98863790/235392148-1baf566c-9203-4a24-9968-a5b03f882baa.png)
 
-## Isolation Amplifier
+## Isolation Amplifier Setup
 
 The improved isolation Amplifier schematic is shown in the figure below:
 
@@ -75,7 +75,7 @@ The command and simulation output is shown below (to obtain the proper input imp
 ![image](https://user-images.githubusercontent.com/98863790/235394205-0171ca88-ae96-4dc6-a9c1-43eb7d0b8e36.png)
 ![image](https://user-images.githubusercontent.com/98863790/235394392-9ba96947-166b-4635-b01a-53781192a0dd.png)
 
-## Tracking Filter
+## Tracking Filter Setup
 
 The improved tracking filter schematic is shown below:
 
@@ -89,7 +89,7 @@ The only command we are going to use in this circuit will be transient analysis,
 ![image](https://user-images.githubusercontent.com/98863790/235396345-66bd6307-35d9-470b-80c2-89cb81268d1c.png)
 
 
-## Triode Mixer
+## Triode Mixer Setup
 
 The improved triode mixere schematic is shown below:
 
