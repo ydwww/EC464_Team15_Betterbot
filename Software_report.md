@@ -54,7 +54,7 @@ After the user simulates the circuit, left click on the output of the amplifier 
 
 ![image](https://user-images.githubusercontent.com/98863790/235393047-93238f70-d5be-4a10-b4df-43f00745b3fc.png)
 
-The second will be the noise simulation, the command of the noise simulation is shown below:
+The second command will be the noise simulation, the command of the noise simulation is shown below:
 
 ![image](https://user-images.githubusercontent.com/98863790/235393405-1d1df9a9-fce1-4571-8af9-ce8723937a39.png)
 
@@ -64,5 +64,11 @@ After the user simulates the circuit, right click on the output screen and find 
 ![image](https://user-images.githubusercontent.com/98863790/235393707-f236b857-085c-4ce2-bc3c-8f9fddbe2923.png)
 ![image](https://user-images.githubusercontent.com/98863790/235393749-2d47875a-8011-4321-a7bb-c23be9cf8874.png)
 
+The third command will require a current input source (remove AC voltage source and replace it with a current source (set the ac value to 1)) for example:
 
+![image](https://user-images.githubusercontent.com/98863790/235393988-d505fefe-4534-44ed-962f-2a3fa2fe94bd.png)
+
+The purpose of this simulation is to check the input impedence of the circuit.
+
+The command and simulation output is shown below:
 
