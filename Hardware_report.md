@@ -24,10 +24,15 @@ The isolation amplifier in the following figure, which is the first step in this
 ![image](https://user-images.githubusercontent.com/98863790/235388910-d340df1d-8521-4b32-a390-12fd34645c56.png)
 
 ### Improved Isolation Amplifier
-The Figure below shows the prototype and schematic of the improved isolation amplifier, the improved isolation amplfiier will have higher gain, lower input voltage noise, and higher input impedance. 
+The figures below shows the prototype,schematic,and simulation outpit of the improved isolation amplifier, the improved isolation amplfiier will have higher gain, lower input voltage noise, and higher input impedance. 
 
 ![image](https://user-images.githubusercontent.com/98863790/235388001-d50d95d1-bf25-49f5-8a41-b24a441bd1b4.png)
 ![image](https://user-images.githubusercontent.com/98863790/235388391-3ac5ac28-2e50-4f93-84fb-9f06f8fda6ec.png)
+![image](https://user-images.githubusercontent.com/98863790/235389651-1d463870-1fcc-415c-b78d-877a644ed951.png)
+![image](https://user-images.githubusercontent.com/98863790/235389688-7e265a4f-e564-42a9-bfa0-58c4ecd1b86b.png)
+![image](https://user-images.githubusercontent.com/98863790/235389727-43a9af60-cde7-4026-9e1c-9f5e6186fafa.png)
+
+
 
 ## Tracking Filter
 
