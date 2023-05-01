@@ -26,13 +26,13 @@ The isolation amplifier in the following figure, which is the first step in this
 ## Triode Mixer
 
 The triode mixer comes after the tracking filter, works as a essential part of AM radio localization system. Using a mixer, the circuit generates intermediate frequency (IF) signals by multiplying a radio frequency (RF) signal with a local oscillator (LO) signal. It receives inputs from the isolation amplifier (RF) and a signal generated locally (LO). In this circuit, for instance, the mixer produces two new frequencies: RF-LO and RF+LO, which are separated by a constant 5 kHz offset. These new frequencies generate 5kHz IF signals and another signal with a high IF frequency. With a low-pass filter, the high frequency IF signal can be readily eliminated, leaving only the 5kHz IF signal. The mixer also retains the phase, allowing for extremely precise phase measurements of high-frequency signals. The circuit schematic is shown below:
-![triode mixer schematic]()
+![triode mixer schematic](pictures/ImproTriode_Mixer_Output.png)
 
-In validation of original circuit on breadboard, the experimental parameters and results for the breadboard validation of the triode mixer circuit are detailed below. The input signals are produced by two function generators that simulate RF and LO signals. The first function generator produces a sine wave with a frequency of 1.05 MHz, an amplitude of 0.1 V, and no offset voltage. The second outputs a 1 MHz sine wave with the same amplitude and offset as the first. An oscilloscope's output displays a 5 kHz wave in time domain and an amplitude peak at 5 kHz after FFT. Output figure posted below.
-![triode mixer schematic]()
+In validation of original circuit on breadboard, the experimental parameters and results for the breadboard validation of the triode mixer circuit are detailed below. The input signals are produced by two function generators that simulate RF and LO signals. The first function generator produces a sine wave with a frequency of 1.05 MHz, an amplitude of 0.1 V, and no offset voltage. The second outputs a 1 MHz sine wave with the same amplitude and offset as the first. An oscilloscope's output displays a 5 kHz wave in time domain and an amplitude peak at 5 kHz after FFT.
 
 
 After improved the circuit, the mixer's conversion gain, which measures how much the output signal amplitude is increased or decreased relative to the inputs, has been significantly enhanced. We primarily concentrate on two factors: increasing the input signal strength from the local oscillator with an emitter follower and determining the optimal bias current with the Rb resistor. The second step is to optimize the gate-drain bias voltage of JFET J1 to enhance conversion gain. The bias voltage is controlled by the BiasVol DC voltage source. In the enhanced triode mixer, R3 is decreased to 40 ohms to maximize the power input from the VCO, and BiasVol is adjusted to -0.95 volts to increase the gate-drain bias voltage to approximately -1.9 volts. In time domain simulation, the enhanced output has an amplitude that is 0.025 V greater than its original output, which represents a 40% improvement. At the desired 5 kHz frequency output, the enhanced version is approximately 2dB larger than the original after FFT. As depicted in following graphs, the original output is shown in blue while the enhanced output is shown in green.
-![triode mixer schematic]()
-![triode mixer schematic]()
-![triode mixer schematic]()
+![triode mixer schematic](pictures/ImproTriode_Mixer_Schematic.png)
+![triode mixer schematic](pictures/ImproTriode_Mixer_Output.png)
+![triode mixer schematic](pictures/ImproTriode_Mixer_OutputFFT.png)
+![triode mixer schematic](pictures/Triode_Mixer_EDataList.png)
