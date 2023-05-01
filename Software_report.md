@@ -50,9 +50,19 @@ To begin with The AC analysis will show the gain of the amplifier, the command o
 
 ![image](https://user-images.githubusercontent.com/98863790/235392728-9c222fa6-4f20-4456-8b2f-1b2849c4f1e2.png)
 
-After the user simulates the circuit, right click on the output of the amplifier where the node label as (o), the following bode plot should show up:
+After the user simulates the circuit, left click on the output of the amplifier where the node label as (o), the following bode plot should show up:
 
 ![image](https://user-images.githubusercontent.com/98863790/235393047-93238f70-d5be-4a10-b4df-43f00745b3fc.png)
+
+The second will be the noise simulation, the command of the noise simulation is shown below:
+
+![image](https://user-images.githubusercontent.com/98863790/235393405-1d1df9a9-fce1-4571-8af9-ce8723937a39.png)
+
+After the user simulates the circuit, right click on the output screen and find add trace and select gain and vinose then click ok to see the output:
+
+![image](https://user-images.githubusercontent.com/98863790/235393572-2adabc09-4914-440f-a6bd-822f4fd6466b.png)
+![image](https://user-images.githubusercontent.com/98863790/235393707-f236b857-085c-4ce2-bc3c-8f9fddbe2923.png)
+![image](https://user-images.githubusercontent.com/98863790/235393749-2d47875a-8011-4321-a7bb-c23be9cf8874.png)
 
 
 
