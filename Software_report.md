@@ -12,7 +12,6 @@ There are five circuit files to simulate in LTSpice for this project:
 2. Isolation Amplifier
 3. Tracking Filter
 4. Triode Mixer
-5. Combined System (Antenna, Isolation Amplifier, Tracking Filter, and Triode Mixer)
 
 All the circuits are improved version. The original circuit schematics can be downloaded from [betterbots](http://www.betterbots.com/). 
 
@@ -100,13 +99,6 @@ The triode mixer will use transient analysis and FFT as part of the project, aft
 ![image](https://user-images.githubusercontent.com/98863790/235395525-d429e01f-2ca1-43f6-af32-a5b240e55644.png)
 ![image](https://user-images.githubusercontent.com/98863790/235395759-f323c1db-92af-4b21-9ef0-78142b325ae8.png)
 ![image](https://user-images.githubusercontent.com/98863790/235395829-e2e5731c-6157-4e66-87e9-9bf583c4902b.png)
-
-## Combined Systemn Setup
-
-The following is the combined system is consisted of active antenna, isolation amplifier, tracking filter, and triode mixer. 
-![image](https://user-images.githubusercontent.com/98863790/235400669-b278faf8-2d1d-46da-b470-52d45596f2c1.png)
-
-In this simulation we will use transient analsys and FFT function to generate output of the intermediate frequency. The command of the transient analysis and the guide of FFT is provided below:
 
 
 
