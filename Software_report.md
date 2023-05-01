@@ -4,10 +4,11 @@ For beginner, the tutorial can be found [tutorial link](https://www.analog.com/e
 
 There are five circuit files to simulate in LTSpice for this project:
 
-1.Active Antenna
-2.Isolation Amplifier
-3.Tracking Filter
-4.Triode Mixer
-5.Combined System (Antenna, Isolation Amplifier, Tracking Filter, and Triode Mixer)
+1. Active Antenna
+2. Isolation Amplifier
+3. Tracking Filter
+4. Triode Mixer
+5. Combined System (Antenna, Isolation Amplifier, Tracking Filter, and Triode Mixer)
 
+By downloading them, we can open them up in LTspice. Then click the **run** button, you will see the output of each circuits. 
 
