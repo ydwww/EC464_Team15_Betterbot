@@ -21,3 +21,16 @@ By downloading them, you can open them up in LTspice. Then click the **run** but
 ## Analysis Type in LTspice
 LTspice offers a few different analysis types such as transient, AC analysis, DC analysis. In our project, we mainly used AC analysis because we are improving an AM radio system and AC analysis is aim to analyzing the frequency response. AC analysis can be used to calculate the gain, phase shift, and frequency response and the output is also shown in the bode plot. AC analysis have multiple scaling: liner, octave, and decade. Each one provides a different number of simulation points and setting frequency. Decade scaling (dec) is our major choice. One decade is equivalent to a ratio of 10. We also used DC analysis in order to get the voltage level and current at different position of the circuit. Since for most of the circuits, we are using transistors thus we always expect the emitter voltage to be smaller than the power voltage and prevent the transistor from saturating. By using the DC analysis, we are able to find the emitter voltage and then we can compare it with the actual value to check if our circuit is built properly. Transient analysis is used when we want to compare the ideal signal with the actual prototype output. Transient analysis is a time domain analysis that shows the output of the behavior over time. Since the time domain is also usually shown in the oscilloscope, we always use transient analysis for output comparison. From the comparison, we can tell whether the circuit works properly or if there is any clipping or noise caused by other components of the circuits.
 
+# LTSpice set up for each circuit
+After watching the tutorials we provided in an earlier section, we assume that the user will have the ability to simulate and choose components from the LTSpice, the following will be just a guide on which simulation commands the user necessary to run for each circuit.
+
+## Active Antenna Spice Guide
+
+The active antenna schematic is shown in the figure below:
+
+![image](https://user-images.githubusercontent.com/98863790/235391792-e42ed6e1-e10f-4022-b5ba-1897ad460bd8.png)
+
+
+
+
+
