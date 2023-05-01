@@ -12,4 +12,4 @@ As the bode plot of the output shown, the active antenna circuit will not amplif
 The following figure displays the prototype of the active antenna on a breadboard. By replacing the input with a 15 feet 28 gauge wire, the active antenna is able to collect the surrounding AM signals. Fig4 shows the output of the active antenna on the spectrum analyzer, revealing the presence of AM radio signals in the Boston University Photonics Center Room 113. The room contains multiple AM radios, as indicated by the distinct peaks on the graph, notably at 850kHz, 1.03MHz, 1.32MHz, and 1.55MHz. The graph serves as evidence that the AM radio signals are capable of penetrating through the walls and being collected by the active antenna.
 
 ![ACTIVE ANTENNA PROTOTYPE](pictures/active_antenna_prototype.jpg)
-![ACTIVE ANTENNA OUTPUT](pictures/Active_antenna_output.jpg)
+![ACTIVE ANTENNA OUTPUT](pictures/ACTIVE_ANTENNA_OUTPUT.jpg)
