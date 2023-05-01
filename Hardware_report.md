@@ -1,5 +1,11 @@
 # Hardware report
 
+For our project, we validate and improve three modules given by our client Daniel from BetterBot - isolation amplifier, tracking filter, and triode mixer - along with our self designed active antenna in order to help our testing. The overall modules of our porject is shown in the followin figure. 
+
+![Current modules](pictures/Current_modules.png)
+
+
+
 ## Active Antenna
 
 The following figure illustrates the schematic active antenna circuit, powered up by a 3.3V DC source. The circuit consists of two stages. The first stage utilizes a BF256B JFET emitter follower with a voltage divider at the base to regulate the voltage at Output1 and prevent the JFET from saturating. The second stage of the circuit is a PN2222A BJT emitter follower to achieve a low output impedance. Since the spectrum analyzer only has a low input impedance of 50 ohms, a large output impedance is added between the circuit and spectrum analyzer during signal analysis to prevent damage to the spectrum analyzer.
@@ -68,8 +74,8 @@ After improved the circuit, the mixer's conversion gain, which measures how much
 
 ## Combined Circuit
 Active Antenna, INA, Tracking Filter, and Triode Mixer are the four circuits that make up this prototype. The following figures depict the design and the actual device. By setting the LO mixer input to 860 KHz, adjusting the tracking filter to one of the AM radio frequencies (850 KHz in this experiment), and anticipating a 10 KHz IF output from the mixer, it aims to test or identify one of the AM radio signals. The detection of the AM radio signal proved successful at the end of this prototype's testing.
-![combined circuit schematic]()
-![combined circuit prototype]()
+![combined circuit schematic](pictures/Combined_circuit_schematic.png)
+![combined circuit prototype](pictures/Combined_circuit_prototype.png)
 
 ### Tesing
 #### Set Up
@@ -77,5 +83,5 @@ The four circuits we built were joined and tested. The following figure shows th
 
 #### Output
 We can see from the following figure that there is a peak at 10.3 kHz, which is what we anticipated. With a difference of 0.3 kHz and a percentage error of 3%, the result (10.3 kHz) is rather close to the simulation findings (10 kHz). We draw the conclusion that the combined circuit is in good working order and satisfies all standards because 3% is a lot less than 10%.
-![combined circuit output]()
+![combined circuit output](pictures/combined_circuit_output.png)
 
