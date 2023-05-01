@@ -9,5 +9,5 @@ Another goal is to limit the space of the AM Radio Localization circuits to a ma
 	
 Due to time limitation, we only have time to validate and improve three parts of the modules-isolaton amplifier, tracking filter, and triode mixer- along with our self designed active antenna since the robot already has another complex system for collecting surrounding AM signals. The overall modules of what we have working on is shown in the following figure:
 
-![Current modules](
+![Current modules](pictures/Current_modules.png)
 
