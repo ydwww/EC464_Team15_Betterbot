@@ -101,6 +101,10 @@ The triode mixer will use transient analysis and FFT as part of the project, aft
 ![image](https://user-images.githubusercontent.com/98863790/235395759-f323c1db-92af-4b21-9ef0-78142b325ae8.png)
 ![image](https://user-images.githubusercontent.com/98863790/235395829-e2e5731c-6157-4e66-87e9-9bf583c4902b.png)
 
+## Combined Systemn Setup
+
+The following is the combined system is consisted of active antenna, isolation amplifier, tracking filter, and triode mixer. 
+![image](https://user-images.githubusercontent.com/98863790/235400669-b278faf8-2d1d-46da-b470-52d45596f2c1.png)
 
 
 
