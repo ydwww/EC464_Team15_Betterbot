@@ -34,7 +34,7 @@ The active antenna will only use AC simulation, the command is shown below:
 
 ![image](https://user-images.githubusercontent.com/98863790/235392040-710a7fa3-0821-48cf-8684-cbcfc8d4ad14.png)
 
-After the user runs the simulation, a bode plot of the antenna will be shown.
+After the user runs the simulation, right click on the output of the antenna, the following bode plot of the antenna will display:
 
 ![image](https://user-images.githubusercontent.com/98863790/235392148-1baf566c-9203-4a24-9968-a5b03f882baa.png)
 
@@ -42,8 +42,17 @@ After the user runs the simulation, a bode plot of the antenna will be shown.
 
 The improved isolation Amplifier schematic is shown in the figure below:
 
+![image](https://user-images.githubusercontent.com/98863790/235392525-c0bc67cb-1988-4587-b19e-03c763931657.png)
+
 The isolation amplfiier will use AC, Noise, and Transient Analysis as part of the project.
 
 To begin with The AC analysis will show the gain of the amplifier, the command of the AC analysis is shown below:
+
+![image](https://user-images.githubusercontent.com/98863790/235392728-9c222fa6-4f20-4456-8b2f-1b2849c4f1e2.png)
+
+After the user simulates the circuit, right click on the output of the amplifier where the node label as (o), the following bode plot should show up:
+
+![image](https://user-images.githubusercontent.com/98863790/235393047-93238f70-d5be-4a10-b4df-43f00745b3fc.png)
+
 
 
