@@ -30,7 +30,9 @@ The active antenna schematic is shown in the figure below:
 
 ![image](https://user-images.githubusercontent.com/98863790/235391792-e42ed6e1-e10f-4022-b5ba-1897ad460bd8.png)
 
+The active antenna will only use AC simulation, more specific down below:
 
+![image](https://user-images.githubusercontent.com/98863790/235392040-710a7fa3-0821-48cf-8684-cbcfc8d4ad14.png)
 
 
 
