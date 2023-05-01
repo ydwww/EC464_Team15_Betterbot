@@ -21,11 +21,28 @@ The goal of this section is to improve the original version of the isolation amp
 ### Original Isolation Amplifier
 The isolation amplifier in the following figure, which is the first step in this signal processing chain, enhances the signal from the active antenna by a factor of 10, reducing the adverse effects of the following circuits as such. The isolation amplifier's gain should be precise and consistent across time, and the amplifier's bandwidth needs to be sufficient to accommodate the signal being measured frequency range, also the amplifier improves the signal-to-noise ratio of the AM localization system and prevents these disturbances from interfering with with with other systems which utilize the active antenna.
 
+![image](https://user-images.githubusercontent.com/98863790/235388910-d340df1d-8521-4b32-a390-12fd34645c56.png)
+
 ### Improved Isolation Amplifier
 The Figure below shows the prototype and schematic of the improved isolation amplifier, the improved isolation amplfiier will have higher gain, lower input voltage noise, and higher input impedance. 
 
 ![image](https://user-images.githubusercontent.com/98863790/235388001-d50d95d1-bf25-49f5-8a41-b24a441bd1b4.png)
 ![image](https://user-images.githubusercontent.com/98863790/235388391-3ac5ac28-2e50-4f93-84fb-9f06f8fda6ec.png)
+
+## Tracking Filter
+
+In the following figure is the original tracking filter. It describes a Q-enhanced filter with one amplification stage and two follower stages. Capacitor C4 is meant to be replaced by varactors in parallel in order to have a voltage-controlled variable capacitance. The main improvement objective for the circuit is to find an appropriate feedback resistance for which we can have a constant gain with stable Q along the desired frequency range. Although the simulations show an ideal gain and Q  along the entire frequency range, the breadboard prototype will become unstable around the 8MHz mark. In order to validate the results of the simulation we built a breadboard prototype and connected it to a signal generator in order to test its response at different frequencies. We get a significantly better performance from the simulation with the prototype which when centered at approximately 912kHz in which we observe a 3dB decrease in power when the signal differs for 2kHz which means a 4kHz bandwidth. The fix for the stability problem on the real prototype gives us an opportunity for improvement by making the change in Q an easier parameter to manipulate.
+
+
+![image](https://user-images.githubusercontent.com/98863790/235389141-e6b3e8a1-b137-4884-8057-694a4a519792.png)
+
+## Improved Tracking Filter
+
+The following figures shows the prototype and the schematic of the improved tracking filter. In order to ease the change of the Q parameter by the end user we make use of the IV characteristics of JFETs. By setting the JFET into its ohmic region we achieve what essentially is a voltage controlled resistor. We achieve this ‘biasing’ current to sustain resistive behavior by changing the value of resistor R10. In order to control the resistance of the JFET we must add a control unit which will deliver a voltage control. For theory (and simulation) we could just deliver enough control voltage to turn on the JFET and thus create a filter with an almost ideal Q. If we do this and only deliver a 0.7V control we can obtain an amplification of 50dB with a bandwidth of 1kHz for a 1MHz target signal, greatly outperforming the original design. A further improvement that simplifies the usage of the filter (although limiting the control of the end user upon its capabilities) is to set hard limits to the minimum and maximum feedback resistance in order to guarantee a more stable response of the filter. We achieve this by setting a minimum resistance in series with the JFET and a maximum resistance in parallel. 
+
+![image](https://user-images.githubusercontent.com/98863790/235389445-554e5e0a-db16-4ee5-a5f1-0cbfbeb2d0bb.png)
+![image](https://user-images.githubusercontent.com/98863790/235389306-bc7282d6-1a32-4161-ad36-cb5227f48745.png)
+
 
 ## Triode Mixer
 
