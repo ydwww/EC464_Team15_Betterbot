@@ -79,5 +79,12 @@ The command and simulation output is shown below (to obtain the proper input imp
 
 The improved tracking filter schematic is shown below:
 
+## Triode Mixer
+
+The improved triode mixere schematic is shown below:
+
+![image](https://user-images.githubusercontent.com/98863790/235394937-3e620f4b-e5f0-42c0-93a5-c7b5e437ec20.png)
+
+
 
 
