@@ -85,6 +85,16 @@ The improved triode mixere schematic is shown below:
 
 ![image](https://user-images.githubusercontent.com/98863790/235394937-3e620f4b-e5f0-42c0-93a5-c7b5e437ec20.png)
 
+The triode mixer will use transient analysis and FFT as part of the project, after simulating the transient anaylsis, left click on the output of the mixer, and right click on the output screen find FFT, the FFT will show the intermediate frequency.
+
+![image](https://user-images.githubusercontent.com/98863790/235395525-d429e01f-2ca1-43f6-af32-a5b240e55644.png)
+![image](https://user-images.githubusercontent.com/98863790/235395759-f323c1db-92af-4b21-9ef0-78142b325ae8.png)
+![image](https://user-images.githubusercontent.com/98863790/235395829-e2e5731c-6157-4e66-87e9-9bf583c4902b.png)
+
+
+
+
+
 
 
 
