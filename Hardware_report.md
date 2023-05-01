@@ -23,6 +23,7 @@ The isolation amplifier in the following figure, which is the first step in this
 
 ### Improved Isolation Amplifier
 The Figure below shows the prototype and schematic of the improved isolation amplifier, the improved isolation amplfiier will have higher gain, lower input voltage noise, and higher input impedance. 
+
 ![image](https://user-images.githubusercontent.com/98863790/235388001-d50d95d1-bf25-49f5-8a41-b24a441bd1b4.png)
 ![image](https://user-images.githubusercontent.com/98863790/235388391-3ac5ac28-2e50-4f93-84fb-9f06f8fda6ec.png)
 
