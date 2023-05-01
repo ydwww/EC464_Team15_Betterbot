@@ -26,7 +26,7 @@ The isolation amplifier in the following figure, which is the first step in this
 ## Triode Mixer
 
 The triode mixer comes after the tracking filter, works as a essential part of AM radio localization system. Using a mixer, the circuit generates intermediate frequency (IF) signals by multiplying a radio frequency (RF) signal with a local oscillator (LO) signal. It receives inputs from the isolation amplifier (RF) and a signal generated locally (LO). In this circuit, for instance, the mixer produces two new frequencies: RF-LO and RF+LO, which are separated by a constant 5 kHz offset. These new frequencies generate 5kHz IF signals and another signal with a high IF frequency. With a low-pass filter, the high frequency IF signal can be readily eliminated, leaving only the 5kHz IF signal. The mixer also retains the phase, allowing for extremely precise phase measurements of high-frequency signals. The circuit schematic is shown below:
-![triode mixer schematic](pictures/ImproTriode_Mixer_Output.png)
+![triode mixer schematic](pictures/ImproTriode_Mixer_Schematics.png)
 
 In validation of original circuit on breadboard, the experimental parameters and results for the breadboard validation of the triode mixer circuit are detailed below. The input signals are produced by two function generators that simulate RF and LO signals. The first function generator produces a sine wave with a frequency of 1.05 MHz, an amplitude of 0.1 V, and no offset voltage. The second outputs a 1 MHz sine wave with the same amplitude and offset as the first. An oscilloscope's output displays a 5 kHz wave in time domain and an amplitude peak at 5 kHz after FFT.
 
