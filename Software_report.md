@@ -42,4 +42,8 @@ After the user runs the simulation, a bode plot of the antenna will be shown.
 
 The improved isolation Amplifier schematic is shown in the figure below:
 
+The isolation amplfiier will use AC, Noise, and Transient Analysis as part of the project.
+
+To begin with The AC analysis will show the gain of the amplifier, the command of the AC analysis is shown below:
+
 
