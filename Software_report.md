@@ -106,6 +106,12 @@ The triode mixer will use transient analysis and FFT as part of the project, aft
 The following is the combined system is consisted of active antenna, isolation amplifier, tracking filter, and triode mixer. 
 ![image](https://user-images.githubusercontent.com/98863790/235400669-b278faf8-2d1d-46da-b470-52d45596f2c1.png)
 
+In this simulation we will use transient analsys and FFT function to generate output of the intermediate frequency. The command of the transient analysis and the guide of FFT is provided below:
+
+
+
+
+
 
 
 
