@@ -8,17 +8,18 @@ For our project, we validate and improve three modules given by our client Danie
 
 ## Active Antenna
 
-The following figure illustrates the schematic active antenna circuit, powered up by a 3.3V DC source. The circuit consists of two stages. The first stage utilizes a BF256B JFET emitter follower with a voltage divider at the base to regulate the voltage at Output1 and prevent the JFET from saturating. The second stage of the circuit is a PN2222A BJT emitter follower to achieve a low output impedance. Since the spectrum analyzer only has a low input impedance of 50 ohms, a large output impedance is added between the circuit and spectrum analyzer during signal analysis to prevent damage to the spectrum analyzer.
+The following figure illustrates the schematic of our original active antenna circuit, which is powered up by a 3.3V DC source. The circuit consists of two stages. The first stage is a BF256B JFET emitter follower with a voltage divider at the base in order to regulate the voltage at Output1 and prevent the JFET from saturating. The second stage of the circuit is a PN2222A BJT emitter follower to achieve a high output impedance. Since we are using a spectrum analyzer for testing and it only has a low input impedance of 50 ohms, a large output impedance is added between the circuit and spectrum analyzer during the analysis to prevent damage to the spectrum analyzer.
 
 ![active antenna schematic](pictures/Active_Antenna_Schematic.png)
 
-As the bode plot of the output shown, the active antenna circuit will not amplify any signals. Instead, it will allow the signal in the range of 1kHz to 2MHz to pass through and attenuate the rest signals. This circuit is particularly useful for AM radio which covers frequencies ranging from 500kHz to 1.8MHz. 
+As the bode plot of the ideal output shown, the active antenna circuit will not amplify any signals. Instead, it will allow the signal in the range of 1kHz to 2MHz to pass through and attenuate the rest signals. This circuit is particularly useful for AM radio which covers frequencies ranging from 500kHz to 1.8MHz. 
 
-
-The following figure displays the prototype of the active antenna on a breadboard. By replacing the input with a 15 feet 28 gauge wire, the active antenna is able to collect the surrounding AM signals. Fig4 shows the output of the active antenna on the spectrum analyzer, revealing the presence of AM radio signals in the Boston University Photonics Center Room 113. The room contains multiple AM radios, as indicated by the distinct peaks on the graph, notably at 850kHz, 1.03MHz, 1.32MHz, and 1.55MHz. The graph serves as evidence that the AM radio signals are capable of penetrating through the walls and being collected by the active antenna.
+The following figure displays the prototype of the active antenna on a breadboard. By replacing the input with a 10 feet 28 gauge wire, the active antenna is able to collect the surrounding AM signals. Fig4 shows the output of the active antenna on the spectrum analyzer, revealing the presence of AM radio signals in the Boston University Photonics Center Room 113. The room contains multiple AM radios, as indicated by the distinct peaks on the graph, notably at 850kHz, 1.03MHz, 1.32MHz, and 1.55MHz. The graph serves as evidence that the AM radio signals are capable of penetrating through the walls and being collected by the active antenna.
 
 ![ACTIVE ANTENNA PROTOTYPE](pictures/active_antenna_prototype.jpg)
 ![ACTIVE ANTENNA OUTPUT](pictures/ACTIVE_ANTENNA_OUTPUT.jpg)
+
+
 
 ## Isolation Amplifier
 
@@ -30,7 +31,7 @@ The isolation amplifier in the following figure, which is the first step in this
 ![image](https://user-images.githubusercontent.com/98863790/235388910-d340df1d-8521-4b32-a390-12fd34645c56.png)
 
 ### Improved Isolation Amplifier
-The figures below shows the prototype,schematic,and simulation outpit of the improved isolation amplifier, the improved isolation amplfiier will have higher gain, lower input voltage noise, and higher input impedance. 
+The figures below shows the prototype,schematic, and simulation outpit of the improved isolation amplifier, the improved isolation amplfiier will have higher gain, lower input voltage noise, and higher input impedance. 
 
 ![image](https://user-images.githubusercontent.com/98863790/235388001-d50d95d1-bf25-49f5-8a41-b24a441bd1b4.png)
 ![image](https://user-images.githubusercontent.com/98863790/235388391-3ac5ac28-2e50-4f93-84fb-9f06f8fda6ec.png)
