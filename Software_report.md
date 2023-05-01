@@ -75,4 +75,9 @@ The command and simulation output is shown below (to obtain the proper input imp
 ![image](https://user-images.githubusercontent.com/98863790/235394205-0171ca88-ae96-4dc6-a9c1-43eb7d0b8e36.png)
 ![image](https://user-images.githubusercontent.com/98863790/235394392-9ba96947-166b-4635-b01a-53781192a0dd.png)
 
+## Tracking Filter
+
+The improved tracking filter schematic is shown below:
+
+
 
